@@ -38,5 +38,5 @@ jobs:
           INPUT_MESSAGE: "Thanks for taking this issue! Let us know if you have any questions!"
           INPUT_TRIGGER: "/assign"
           ISSUE_CURRENTLY_ASSIGNED_MESSAGE: "The issue you are trying to assign to yourself is already assigned."
-          GITHUB_TOKEN: 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
+          GITHUB_TOKEN: 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
           #${{ secrets.GITHUB_TOKEN }}
