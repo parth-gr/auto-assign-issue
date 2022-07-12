@@ -9,6 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run self assign job
+        branding:
+          icon: 'thumbs-up'
+          color: 'white'
         run: |
           BODY="$(jq '.comment.body' $GITHUB_EVENT_PATH)"
           ISSUE_NUMBER="$(jq '.issue.number' $GITHUB_EVENT_PATH)"
