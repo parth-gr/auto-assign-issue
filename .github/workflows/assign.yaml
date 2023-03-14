@@ -13,4 +13,4 @@ jobs:
         with:
           message: Thanks for taking this issue! Let us know if you have any questions!
           trigger: /assign
-          token: ${{ secrets.GIT_API_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
